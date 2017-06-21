@@ -271,6 +271,7 @@ Add-Content index.html '<!DOCTYPE html>
 cd dist 
 New-Item styles.css -type file -force
 New-Item bundle.js -type file -force
+New-Item images -type directory -force
 cd ../src
 New-Item css -type directory -force
 New-Item js -type directory -force
